@@ -1,10 +1,11 @@
-
 //========================================================//
 //Global Variables
 //========================================================//
 var username = "";
 var userScore = 0;
 var difficulty = "";
+var maxSeconds = 120;
+var secondsRemaining;
 var highScore = "";
 var intervalTimer;
 var timeWhenLastPizzaWasComplete = 120;
